@@ -49,5 +49,5 @@ signingConfigs{
                 keyPassword MYAPP_UPLOAD_KEY_PASSWORD
             }
         }
+        signingConfig signingConfigs.release
     }
-    signingConfig signingConfigs.release
