@@ -80,7 +80,7 @@ jobs:
       - <<: *update_cache
       - run:
           name: Run Tests
-          command: ./gradlew testProductionDebug
+          command: ./gradlew lint test
       - run:
           name: Save test results (html page, see Artifacts)
           command: |
